@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>334</width>
+    <height>270</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>Choose language:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QComboBox" name="comboBox">
+     <item>
+      <property name="text">
+       <string>English, United States</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Georgian, Georgia</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Ukrainian, Ukraine</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Danish, Denmark</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>German, Germany</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Welsh, United Kingdom</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>English, United Kingdom</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>English, Australia</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>English, Canada</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <widget class="QTextEdit" name="textEdit">
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="0">
+    <widget class="QPushButton" name="pushButton">
+     <property name="text">
+      <string>Start speech recogniztion</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
